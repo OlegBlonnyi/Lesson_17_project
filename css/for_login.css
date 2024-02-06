@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.w-100{
+  width: 100%;
+}
+/* .margin{
+  margin-bottom: 41px;
+} */
+
+
+.checkbox-blue[type="checkbox"] + span:before{
+  border: 2px solid #BA68C8 ;
+  background: transparent;
+}
+.checkbox-blue[type="checkbox"]:checked + span:before{
+  border: 2px solid transparent;
+  border-bottom: 2px solid #BA68C8 ;
+  border-right: 2px solid #BA68C8 ;
+  background: transparent;
+}
+.checkbox-blue.filled-in[type="checkbox"] + span:after{
+  border: 2px solid #BA68C8;
+  background: transparent;
+}
+.checkbox-blue.filled-in[type="checkbox"]:checked + span:after{
+  background: #BA68C8;
+  border: 2px solid #BA68C8;
+}
+.checkbox-blue.filled-in[type="checkbox"]:checked + span:before{
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label, 
+.input-field input[type=password]:focus + label {
+    color: #BA68C8 !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus, 
+.input-field input[type=password]:focus
+{
+    border-bottom: 1px solid #BA68C8!important;
+    box-shadow: 0 1px 0 0 #BA68C8 !important;
+}
+

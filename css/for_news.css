@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+
+.margin{
+  margin-bottom: 41px;
+}
+.menu i{
+  color: #BA68C8 !important;
+}
+.d-flex-vertical{
+  display: flex;
+  align-items: center;
+}
+.card img{
+  width: 50% !important;
+}
+.noMargin{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.d-flex-ul{
+  display: flex;
+  flex-direction: column;
+}
+.d-flex-ul li{
+  color: black;
+  padding: 10px;
+}
+.d-flex-ul li i{
+  margin-right: 8px;
+}
+.d-flex-ul li:hover{
+  border-radius: 10px;
+  background-color: #fbe7ff;
+}
+.d-flex-ul a{
+  color: black;
+}
+.marginTop{
+  margin-top: 20px;
+}
+.active{
+  background-color: #fdefff;
+  border-radius: 10px;
+}
+.iconPad{
+  padding-top: 25px;
+}
+
+/* for post */
+.post{
+  padding: 20px;
+}
+.first{
+  display: flex;
+  align-items: center;
+}
+.small{
+  color: rgb(139, 139, 139);
+  font-size: small;
+}
+.image{
+  margin-right: 20px;
+}
+
+.card img{
+  width: 100% !important;
+}
+.card .card-title{
+  opacity: 0.6;
+  margin-bottom: 10px;
+}

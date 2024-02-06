@@ -1,0 +1,104 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+.margin{
+  margin-bottom: 41px;
+}
+.menu i{
+  color: #BA68C8 !important;
+}
+.d-flex-vertical{
+  display: flex;
+  align-items: center;
+}
+.active{
+  background-color: #fdefff;
+  border-radius: 10px;
+}
+.iconPad{
+  padding-top: 25px;
+}
+.noMargin{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.d-flex-ul{
+  display: flex;
+  flex-direction: column;
+}
+.d-flex-ul li{
+  color: black ;
+  padding: 10px ;
+}
+.d-flex-ul li i{
+  margin-right: 8px;
+}
+.d-flex-ul li:hover{
+  border-radius: 10px;
+  background-color: #fbe7ff;
+}
+.d-flex-ul a{
+  color: black;
+}
+.marginTop{
+  margin-top: 20px;
+}
+
+/* ------- */
+
+.small{
+  color: rgb(139, 139, 139);
+  font-size: small;
+}
+.friends-block h6{
+  margin-bottom: 15px;
+}
+.btnProfile{
+  margin-top: 15px;
+  width: 100%;
+  height: 40px;
+}
+.image{
+  margin-top: 30px;
+  padding: 20px;
+}
+.friends-block{
+  padding: 20px;
+  margin-top: 15px;
+}
+.imgFriend{
+  width: 100%;
+}
+.info-block{
+  margin-top: 30px;
+  padding: 20px;
+}
+.infoMar{
+  margin-right: 40px;
+}
+.d-flex{
+  display: flex;
+}
+.first{
+  margin-right: 60px;
+}
+.my-post-block{
+  padding: 20px;
+  margin-top: 15px;
+}
+.likes{
+  color: #FCC419;
+  margin-top: 15px;
+  display: flex;
+}
+.likes img{
+  width: 4%;
+}
+.m-right{
+  margin-right: 20px;
+}

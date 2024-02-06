@@ -1,0 +1,56 @@
+.margin{
+  margin-bottom: 41px;
+}
+.menu i{
+  color: #BA68C8 !important;
+}
+.d-flex-vertical{
+  display: flex;
+  align-items: center;
+}
+.card img{
+  width: 50% !important;
+}
+.noMargin{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.d-flex-ul{
+  display: flex;
+  flex-direction: column;
+}
+.d-flex-ul li{
+  color: black;
+  padding: 10px;
+}
+.d-flex-ul li i{
+  margin-right: 8px;
+}
+.d-flex-ul li:hover{
+  border-radius: 10px;
+  background-color: #fbe7ff;
+}
+.d-flex-ul a{
+  color: black;
+}
+.marginTop{
+  margin-top: 20px;
+}
+.active{
+  background-color: #fdefff;
+  border-radius: 10px;
+}
+
+
+/* label focus color */
+.input-field input[type=text]:focus + label, 
+.input-field input[type=password]:focus + label {
+    color: #BA68C8 !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus, 
+.input-field input[type=password]:focus
+{
+    border-bottom: 1px solid #BA68C8!important;
+    box-shadow: 0 1px 0 0 #BA68C8 !important;
+}

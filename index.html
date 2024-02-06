@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./css/for_index.css">
+</head>
+<body>
+<!-- sidenav -->
+  <ul id="slide-out" class="sidenav sidenav-fixed">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="images/office.jpg">
+      </div>
+      <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+      <a href="#name"><span class="white-text name">John Doe</span></a>
+      <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  </ul>
+  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  <!-- sidenav -->
+
+  <section>
+    <!-- tabs -->
+    <div class="row">
+      <div class="col s12">
+        <ul class="tabs">
+          <li class="tab col s3"><a href="#test1">Test 1</a></li>
+          <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
+          <li class="tab col s3 disabled"><a href="#test3">Disabled Tab</a></li>
+          <li class="tab col s3"><a href="#test4">Test 4</a></li>
+        </ul>
+      </div>
+      <div id="test1" class="col s12">Test 1 dkafjdajfdkanjibaanvq gqjriq</div>
+      <div id="test2" class="col s12">Test 2</div>
+      <div id="test3" class="col s12">Test 3</div>
+      <div id="test4" class="col s12">Test 4</div>
+    </div>
+    <!-- tabs -->
+
+    <!-- cards with tabs -->
+    <div class="card">
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="card-tabs">
+        <ul class="tabs tabs-fixed-width">
+          <li class="tab"><a href="#card-test4">Test 1</a></li>
+          <li class="tab"><a class="active" href="#card-test5">Test 2</a></li>
+          <li class="tab"><a href="#card-test6">Test 3</a></li>
+        </ul>
+      </div>
+      <div class="card-content grey lighten-4">
+        <div id="card-test4">Test 1</div>
+        <div id="card-test5">Test 2</div>
+        <div id="card-test6">Test 3</div>
+      </div>
+    </div>
+    <!-- cards with tabs -->
+
+    <!-- Autocomplete -->
+    <div class="row">
+      <div class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">textsms</i>
+            <input type="text" id="autocomplete-input" class="autocomplete">
+            <label for="autocomplete-input">Autocomplete</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Autocomplete -->
+
+    <!-- Checkboxes -->
+    <label>
+      <input id="indeterminate-checkbox" type="checkbox" />
+      <span>Indeterminate Style</span>
+    </label>
+    <!-- Checkboxes -->
+
+    <!-- Switches -->
+    <div class="switch">
+      <label>
+        Off
+        <input type="checkbox">
+        <span class="lever"></span>
+        On
+      </label>
+    </div>
+    <!-- Switches -->
+
+    <!-- Text Inputs -->
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="last_name" type="text" class="validate">
+        <label for="last_name">Last Name</label>
+      </div>
+    </div>
+    <!-- Text Inputs -->
+
+    <!-- Date Picker -->
+    <input type="text" class="datepicker">
+    <!-- Date Picker -->
+
+    <!-- Range -->
+    <form action="#">
+      <p class="range-field">
+        <input type="range" id="test5" min="0" max="100" />
+      </p>
+    </form>
+    <!-- Range -->
+  
+  </section>
+    
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
