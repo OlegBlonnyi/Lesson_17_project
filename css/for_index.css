@@ -1,6 +1,10 @@
 header, main, footer, section {
   padding-left: 330px;
 }
+.btn-go{
+  margin: 40px;
+  padding: 10px;
+}
 
 @media only screen and (max-width : 992px) {
   header, main, footer, section {
